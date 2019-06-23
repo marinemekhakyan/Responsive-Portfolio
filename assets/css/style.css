@@ -1,6 +1,5 @@
 body {
     background-color: #F0EFF0;
-    background-image: url ("../images/memphis-mini.png");
 }
 
 .header {
@@ -11,7 +10,7 @@ body {
     border-style: outset;
     border-width: 1px;
     border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     
 }
 
@@ -190,7 +189,7 @@ hr {
       }
 
     .header {
-        margin-left: 0px;
+        margin-left: 0;
         width: 100%;
     }
 
@@ -213,7 +212,7 @@ hr {
     }
     
     .header {
-        margin-left: 0px;
+        margin-left: 0;
         width: 100%;
     }
 
@@ -244,7 +243,6 @@ hr {
     
     .header {
         position: static;
-        width: 100%;
     }
   }
 

@@ -180,7 +180,7 @@ hr {
     margin-right: 25px;
   }
 
-  @media only screen and (max-width: 980px) {
+  @media screen and (max-width: 980px) {
     
     #content {
         margin: 0;
@@ -191,7 +191,12 @@ hr {
         background-color: #4aaaa5;
       }
 
+    .header {
+        margin-left: 0px;
+    }
+
     #name-box {
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -201,7 +206,7 @@ hr {
     }
 
 }
-    @media only screen and (min-width: 768px) {
+    @media screen and (max-width: 768px) {
         
     .navbar {
       background-color: #4aaaa5;
@@ -212,7 +217,7 @@ hr {
         width: 100%;
     }
     
-    #name-box {
+    .header {
         margin-left: 0px;
     }
 
@@ -223,7 +228,7 @@ hr {
 
   }
 
-  @media only screen and (min-width: 640px) {
+  @media screen and (max-width: 640px) {
         
     .navbar {
       background-color: #4aaaa5;
@@ -233,10 +238,6 @@ hr {
         margin: 0;
         width: 100%;
     
-    }
-    
-    #name-box {
-        margin-left: 0px;
     }
 
     #footer {

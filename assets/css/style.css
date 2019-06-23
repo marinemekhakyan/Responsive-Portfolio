@@ -1,0 +1,250 @@
+body {
+    background-color: #F0EFF0;
+    background-image: url ("../images/memphis-mini.png");
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+.name-box {
+    width: 350px;
+    height: 90px;
+    background-color: #4aaaa5;
+    margin-left: 200px; 
+
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+}
+
+.buttons {
+    position: relative;
+    float: right;
+    margin-top: 40px;
+    margin-right: 240px;
+
+}
+
+
+h2 {
+    color: #4aaaa5;
+
+}
+
+
+#content {
+    clear: both;
+    width: 960px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: #777777;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+
+    
+}
+
+#footer-text {
+    color: #afb0b0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#contact {
+    color: #4aaaa5;
+    
+}
+
+.container {
+    margin: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.form-control {
+    width: 100%;
+    margin: 0px;
+    padding: auto;
+}
+
+.form-row,
+.form-group {
+    padding: 5px;
+    margin: 0;
+}
+
+#messagefld {
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#message {
+    margin-left: 10px;
+
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    color: white;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+hr {
+    height: 1px;
+    background-color: #afb0b0;
+
+}
+
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  @media only screen and (max-width: 980px) {
+    
+    #content {
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar-header {
+        background-color: #4aaaa5;
+      }
+    #name-box {
+        margin-left: 0px;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+    }
+    
+}
+    @media only screen and (min-width: 768px) {
+        
+    .navbar {
+      background-color: #4aaaa5;
+    }
+
+    #content {
+        margin: 0;
+        width: 100%;
+    }
+    
+    #name-box {
+        margin-left: 0px;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+  }
+
+  @media only screen and (min-width: 640px) {
+        
+    .navbar {
+      background-color: #4aaaa5;
+    }
+
+    #content {
+        margin: 0;
+        width: 100%;
+    
+    }
+    
+    #name-box {
+        margin-left: 0px;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .header {
+        position: static;
+    }
+  }
+

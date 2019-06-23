@@ -184,12 +184,13 @@ hr {
     
     #content {
         margin: 0;
-        width: 100%;
+        width: 980px;
     }
 
     .navbar-header {
         background-color: #4aaaa5;
       }
+
     #name-box {
         margin-left: 0px;
     }
@@ -198,7 +199,7 @@ hr {
         position: fixed;
         bottom: 0;
     }
-    
+
 }
     @media only screen and (min-width: 768px) {
         
